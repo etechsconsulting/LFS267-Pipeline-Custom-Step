@@ -30,7 +30,7 @@ pipeline {
           }
           post {
             success {
-            postBuildSuccess(stashName: "Java 17")
+            postBuildSuccess(stashName: 'Java 17')
             }
           }
         }
